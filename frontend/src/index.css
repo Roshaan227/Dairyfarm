@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+
+@import "tailwindcss";
+
+/* =========================================================
+   BISMILLAH DAIRY FARM — DESIGN SYSTEM
+   Change your entire website theme from HERE
+   ========================================================= */
+
+@theme {
+  /* ---------- COLORS ---------- */
+
+  --color-farm-green: #173b2a;
+  --color-farm-green-dark: #0d281c;
+  --color-farm-green-light: #28563f;
+
+  --color-cream: #f7f3e9;
+  --color-cream-dark: #ebe4d4;
+
+  --color-gold: #c6a15b;
+  --color-gold-light: #dfc78e;
+  --color-gold-dark: #9d7b3e;
+
+  --color-charcoal: #20251f;
+  --color-muted: #6f756c;
+
+  --color-white: #ffffff;
+
+  /* ---------- FONTS ---------- */
+
+  --font-display: "Playfair Display", serif;
+  --font-sans: "DM Sans", sans-serif;
+}
+
+/* =========================================================
+   GLOBAL STYLES
+   ========================================================= */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--color-cream);
+  color: var(--color-charcoal);
+  font-family: var(--font-sans);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: var(--color-gold);
+  color: var(--color-farm-green-dark);
+}

@@ -1,0 +1,4 @@
+{"sessionId":"2a945d","runId":"pre-fix","hypothesisId":"A","location":"backend/src/app.js:module","message":"Express app module loaded","data":{"nodeEnv":"production","hasMongoUri":false},"timestamp":1788781376108}
+{"sessionId":"2a945d","runId":"pre-fix","hypothesisId":"A","location":"backend/src/app.js:module","message":"Express app module loaded","data":{"nodeEnv":"undefined","hasMongoUri":false},"timestamp":1788781388127}
+{"sessionId":"2a945d","runId":"pre-fix","hypothesisId":"C","location":"backend/src/app.js:health","message":"Health route hit","data":{"method":"GET","url":"/api/health","mongoState":0},"timestamp":1788781433077}
+{"sessionId":"2a945d","runId":"pre-fix","hypothesisId":"E","location":"backend/src/app.js:pre-404","message":"Unmatched route before catch-all","data":{"method":"GET","url":"/api/nope","path":"/api/nope"},"timestamp":1788781433185}
