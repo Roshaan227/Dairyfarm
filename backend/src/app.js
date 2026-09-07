@@ -1,3 +1,10 @@
+import 'dotenv/config';
+import dns from 'node:dns';
+
+// Atlas SRV lookups fail on some networks/DNS resolvers without this
+dns.setDefaultResultOrder('ipv4first');
+dns.setServers(['8.8.8.8', '1.1.1.1']);
+
 import express from 'express';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
